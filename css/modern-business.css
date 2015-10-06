@@ -1,0 +1,177 @@
+/*!
+ * Start Bootstrap - Modern Business HTML Template (http://startbootstrap.com)
+ * Code licensed under the Apache License v2.0.
+ * For details, see http://www.apache.org/licenses/LICENSE-2.0.
+ */
+
+/* Global Styles */
+
+html,
+body {
+    height: 100%;
+}
+
+body {
+    padding-top: 50px; /* Required padding for .navbar-fixed-top. Remove if using .navbar-static-top. Change if height of navigation changes. */
+}
+.logo {
+    margin-top:-20px;
+    padding:0;
+    height:48px;
+    width:200px;
+}
+
+}
+.img-portfolio {
+    margin-bottom: 30px;
+}
+
+.img-hover:hover {
+    opacity: 0.8;
+}
+/*Nav edits */
+.active {
+    color:#E83806;
+}
+/* Home Page Carousel */
+
+header.carousel {
+    height: 50%;
+}
+
+header.carousel .item,
+header.carousel .item.active,
+header.carousel .carousel-inner {
+    height: 100%;
+}
+
+header.carousel .fill {
+    width: 100%;
+    height: 100%;
+    background-position: center;
+    background-size: cover;
+}
+header.carousel h1 {
+    margin-top:0;
+    font-size:3em;
+    margin:bottom:25px;
+    font-weight:700;
+    text-shadow: 2px 2px #ff0000;
+}
+header.carousel p {
+    font-size:1em;
+    text-shadow: 1.7px 1.7px #555;
+}
+header.carousel a {
+    color:#eee;
+}
+header.carousel a:hover {
+    font-weight:700;
+    text-decoration:none;
+    margin-bottom:10px;
+}
+.cacheSlider {
+    background-image:url('cacheroom.jpg');
+}
+.sprinklerSlider {
+    background-image:url('sprinkler.jpg');
+}
+header.carousel .extSlider {
+    background:#303030 url('fireext.jpg') no-repeat 0 10px;
+}
+.two {
+    background-size:50%;
+}
+/* 404 Page Styles */
+
+.error-404 {
+    font-size: 100px;
+}
+
+/* Pricing Page Styles */
+
+.price {
+    display: block;
+    font-size: 50px;
+    line-height: 50px;
+}
+
+.price sup {
+    top: -20px;
+    left: 2px;
+    font-size: 20px;
+}
+
+.period {
+    display: block;
+    font-style: italic;
+}
+.well {
+    background:#303030;
+    color:#eee;
+}
+.well h1 {
+    padding-left:15px;
+}
+.well a {
+    margin-top:13px;
+    border-radius:3px;
+}
+.mobile {
+    color:#444;
+    text-align:center;
+}
+.mobile h1 {
+
+}
+/* Footer Styles */
+
+/*Service page styles */
+/*General*/
+.svscta a {
+    margin-top:53px;
+}
+
+footer {
+    color:#eee;
+    background:#303030;
+    margin: 50px 0;
+    text-align:center;
+}
+
+/* Responsive Styles */
+
+@media(max-width:991px) {
+    .customer-img,
+    .img-related {
+        margin-bottom: 30px;
+    }
+    header.carousel .extSlider {
+        background-position:-200px 10px;
+    }
+}
+
+@media(max-width:767px) {
+    .img-portfolio {
+        margin-bottom: 15px;
+    }
+    header.carousel .extSlider {
+        background-position:-350px 20px;
+    }
+
+    header.carousel .carousel {
+        height: 70%;
+    }
+}
+@media(max-width:580px) {
+    header.carousel .extSlider {
+        background-position:-540px 20px;
+    }
+    header.carousel .sprinklerSlider {
+        background-position: -300px 0 ;
+    }
+    .well h1 {
+        text-align:center;
+        font-size:2em;
+    }
+}
